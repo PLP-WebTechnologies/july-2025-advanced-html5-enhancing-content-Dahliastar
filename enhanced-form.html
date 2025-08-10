@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="An Enhanced HTML Webpage">
+    <meta name="keywords" content="HTML, CSS, Multimedia, Forms, Tables">
+    <meta name="author" content="Michelle Ndunge">
+    <title>Enhanced HTML Elements</title>
+</head>
+<body>
+    <header>
+    <h1>Enhanced HTML Elements</h1>
+    </header>
+    <main>
+        <!--Lists Section-->
+    <section>
+    <h2>Lists</h2>
+    <h3>Ordered Lists</h3>
+    <ol>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Java</li>
+    </ol>
+    <h3>Unordered Lists</h3>
+    <ul>
+        <li>C#</li>
+        <li>C++</li>
+        <li>C</li>
+    </ul>
+    <h3>Nested Lists</h3>
+    <ul>
+        <li>Web Development
+            <ol type="a">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ol>
+        </li>
+        <li>Mobile Development
+            <ol type="a">
+                <li>Android</li>
+                <li>iOS</li>
+            </ol>
+        </li>
+    </ul>
+    <h3>Definition Lists</h3>
+    <dl>
+        <dt>PLP</dt>
+        <dd>Power Learn Project</dd>
+        <dt>EPL</dt>
+        <dd>English Premier League</dd>
+        <dt>DND</dt>
+        <dd>Do Not Disturb</dd>
+    </dl>
+    </section>
+    
+    <!--Tables Section-->
+    <section>
+    <h2>Tables</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Unit</th>
+                <th>Grade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mary Kinyua</td>
+                <td>Programming</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Grace Ndanu</td>
+                <td>Web Development</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td>James Kitavi</td>
+                <td>Database Management</td>
+                <td>B</td>
+            </tr>
+        </tbody>
+    </table>
+    </section>
+ 
+    <!--Multimedia Section-->
+    <section>
+    <h2>Multimedia</h2>
+    <h3>Audio</h3>
+    <audio controls>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio><br><br>
+    <h3>Video</h3>
+    <video controls width="400" height="300" autoplay muted>
+        <source src="https://videos.pexels.com/video-files/3826857/3826857-hd_1920_1080_24fps.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <h3>Images</h3>    
+    <img src="https://images.pexels.com/photos/1032650/pexels-photo-1032650.jpeg" alt="Scenic Ocean View" width="400" height="300">
+    </section>
+
+    <!--Forms Section-->
+    <section>
+    <h2>Forms</h2>
+    <form action="#" method="POST" autocomplete="on">
+        <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name" required><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" name="dob" id="dob" required><br><br>
+        </fieldset>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="Enter your password" minlength="8" maxlength="16" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="youremail@example.com" required><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" name="phone" id="phone" placeholder="+254712865678" pattern="^\+254\d{9}$" title="Phone number must be in the format +254XXXXXXXXX" required><br><br>
+
+        <label for="status">Status:</label>
+        <label for="single">Single</label>
+        <input type="radio" name="status" id="single" value="single" required>
+        <label for="married">Married</label>
+        <input type="radio" name="status" id="married" value="married" required><br><br>
+        
+        <label for="religion">Religion:</label>
+        <select name="Religion" id="religion" required>
+            <option value="Christianity">Christianity</option>
+            <option value="Islam">Islam</option>
+            <option value="Hinduism">Hinduism</option>
+            <option value="Buddhism">Buddhism</option> 
+            <option value="Other">Other</option>
+        </select><br><br>
+
+        <label for="comments">Comments:</label>
+        <textarea name="comments" id="comments" rows="4" cols="50" placeholder="Enter your comments here..."></textarea><br><br>
+        
+        <button type="submit">Submit</button><br><br>
+
+        <button type="reset">Reset</button>
+    </form>
+    </section>
+    </main>
+    <!--Footer Section-->
+    <footer>
+        <hr>
+        <p>&copy; 2025 Enhanced HTML Elements by Michelle. All rights reserved.</p>
+    </footer>
+</body>
+</html>
